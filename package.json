@@ -1,0 +1,14 @@
+{
+  "name": "Simple-Bitcoin-Tx-monitor",
+  "version": "0.0.1",
+  "description": "A very simple tx monitor for local bitcoin nodes.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bitcore": "git://github.com/CrappyJSDev/bitcore.git#e8c18b9383085168f6a0d61a151c2711eaaf572a",
+    "bitcore-p2p": "git://github.com/CrappyJSDev/bitcore-p2p.git",
+    "prettyjson": "^1.1.3"
+  }
+}
